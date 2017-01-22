@@ -1,0 +1,38 @@
+<h1>Cnj Pest</h1>
+<!-- <p>Find me in app/views/users/index.html.erb</p> -->
+
+<h2>Login Form</h2>
+
+<form action="action_page.php">
+  <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+  <div class="imgcontainer">
+    <img src="cnj.jpg" alt="Avatar" class="avatar">
+  </div>
+
+  <div class="container">
+    <label><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="uname" required>
+
+    <label><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+
+    <button type="submit">Login</button>
+    <input type="checkbox" checked="checked"> Remember me
+  </div>
+
+  <div class="container" style="background-color:#42A5F5">
+    <button type="button" class="cancelbtn">Cancel</button>
+    <span class="psw">Forgot <a href="/new">password?</a></span>
+  </div>
+</form>
+
+<footer class="w3-container w3-padding-64 w3-center w3-black w3-xlarge">
+  <a href="#"><i class="fa fa-facebook-official"></i></a>
+  <a href="#"><i class="fa fa-pinterest-p"></i></a>
+  <a href="https://twitter.com/bugginchris"><i class="fa fa-twitter"></i></a>
+  <a href="#"><i class="fa fa-flickr"></i></a>
+  <a href="#"><i class="fa fa-linkedin"></i></a>
+  <p class="w3-medium">
+  Powered by <a href="https://www.linkedin.com/in/andre-wilkinson/" target="_blank">andrewilkinson</a>
+  </p>
+</footer>

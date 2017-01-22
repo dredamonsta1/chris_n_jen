@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  chemical: MyString
+  price: 1
+  pest_id: 
+
+two:
+  chemical: MyString
+  price: 1
+  pest_id: 
